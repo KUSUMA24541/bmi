@@ -1,0 +1,53 @@
+#bg{
+    height: 80%;
+    width: 100%;
+    position: relative;
+}
+.bmi{
+    position: absolute;
+    top: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35%;
+}
+.bmiindex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px black solid;
+    height: 300px;
+    width: 400px;
+    background: rgba(46, 95, 170, 0.767);
+}
+#height{
+
+     margin: 20px;
+     padding: 10px;
+     margin: none;
+     outline: none;
+}
+#weight{
+
+     margin: 20px;
+     padding: 10px;
+     margin: none;
+     outline: none;
+}
+.title{
+    border: 2px black solid;
+    height: 80px;
+    margin: 20px;
+    padding: 10px;
+    background: rgba(46, 95, 170, 0.767);
+}
+.text{
+    font-size: 15px;
+    color: white;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+
+}
